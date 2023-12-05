@@ -62,30 +62,6 @@
 			name = I_ArmeeKorps
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
-				state_region = s:STATE_SILESIA
-				count = 15
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
-				state_region = s:STATE_POSEN
-				count = 10
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
-				state_region = s:STATE_EAST_PRUSSIA
-				count = 5
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_WEST_PRUSSIA
-				count = 5
-			}
-
-			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
 				state_region = s:STATE_EAST_PRUSSIA
 				count = 5
@@ -254,24 +230,6 @@
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_CENTRAL_HUNGARY
 				count = 15
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_BEKES
-				count = 10
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_SOUTHERN_TRANSYLVANIA
-				count = 5
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_NORTHERN_TRANSYLVANIA
-				count = 5
 			}
 
 			combat_unit = {
@@ -1264,11 +1222,7 @@
 				count = 12
 			}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_ORSHA
-				count = 10
-			}
+
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
@@ -1276,17 +1230,9 @@
 				count = 10
 			}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_ESTONIA
-				count = 3
-			}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_LITHUANIA
-				count = 3
-			}
+
+
 			save_scope_as = rus_guards_corps
 		}
 
@@ -1340,11 +1286,6 @@
 				count = 20
 			}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_LUHANSK
-				count = 10
-			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_hussars
@@ -1415,17 +1356,7 @@
 			hq_region = sr:region_dnieper
 			name = 3y_Pekhotniy_Korpus
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_KIEV
-				count = 20
-			}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_LUHANSK
-				count = 10
-			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_hussars
@@ -1523,17 +1454,7 @@
 				count = 10
 			}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_VOLHYNIA
-				count = 4
-			}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_VOLHYNIA
-				count = 4
-			}
 			save_scope_as = rus_6th_corps
 		}
 
@@ -1558,34 +1479,11 @@
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_ESTONIA
-				count = 11
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_LATVIA
-				count = 2
-			}
-
-			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
 				state_region = s:STATE_INGRIA
 				count = 8
 			}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_ESTONIA
-				count = 6
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_LATVIA
-				count = 1
-			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
@@ -1610,33 +1508,10 @@
 		
 			combat_unit = {
 				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_CHERSON
-				count = 6
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_man_o_war
 				state_region = s:STATE_ROSTOV
 				count = 1
 			}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_CRIMEA
-				count = 5
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_CHERSON
-				count = 7
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_CRIMEA
-				count = 7
-			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
@@ -1644,11 +1519,7 @@
 				count = 4
 			}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_LUHANSK
-				count = 1
-			}
+
 			save_scope_as = rus_black_sea_fleet
 		}
 
@@ -2497,25 +2368,6 @@
 		}
 	}
 
-	c:MOL = {
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_danubia
-			name = Armata_Principatului_Moldovei
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_MOLDAVIA
-				count = 2
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_MOLDAVIA
-				count = 1
-			}
-		}
-	}
 
 	c:SIC = {
 		create_military_formation = {
