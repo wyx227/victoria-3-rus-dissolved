@@ -114,7 +114,7 @@
 		}
 	}
 	s:STATE_BREST={
-		region_state:RUS={
+		region_state:BYE={
 			create_building={
 				building="building_rye_farm"
 				level=5
@@ -130,7 +130,7 @@
 		}
 	}
 	s:STATE_VOLHYNIA={
-		region_state:RUS={
+		region_state:UKR={
 			create_building={
 				building="building_logging_camp"
 				level=6
@@ -146,7 +146,7 @@
 		}
 	}
 	s:STATE_KIEV={
-		region_state:RUS={
+		region_state:UKR={
 			create_building={
 				building="building_government_administration"
 				level=10
@@ -230,7 +230,7 @@
 		}
 	}
 	s:STATE_ORSHA={
-		region_state:RUS={
+		region_state:BYE={
 			create_building={
 				building="building_paper_mills"
 				level=3
@@ -300,7 +300,7 @@
 		}
 	}
 	s:STATE_CRIMEA={
-		region_state:RUS={
+		region_state:UKR={
 			create_building={
 				building="building_fishing_wharf"
 				level=2
@@ -316,7 +316,7 @@
 		}
 	}
 	s:STATE_LUHANSK={
-		region_state:RUS={
+		region_state:UKR={
 			create_building={
 				building="building_livestock_ranch"
 				level=10
@@ -376,7 +376,7 @@
 		}
 	}
 	s:STATE_CHERSON={
-		region_state:RUS={
+		region_state:UKR={
 			create_building={
 				building="building_shipyards"
 				level=1
@@ -426,7 +426,7 @@
 		}
 	}
 	s:STATE_MINSK={
-		region_state:RUS={
+		region_state:BYE={
 			create_building={
 				building="building_government_administration"
 				level=5
@@ -504,7 +504,7 @@
 		}
 	}
 	s:STATE_ESTONIA={
-		region_state:RUS={
+		region_state:EST={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -526,7 +526,7 @@
 		}
 	}
 	s:STATE_LATVIA={
-		region_state:RUS={
+		region_state:LAT={
 			create_building={
 				building="building_rye_farm"
 				level=3
@@ -542,7 +542,7 @@
 		}
 	}
 	s:STATE_LITHUANIA={
-		region_state:RUS={
+		region_state:LIT={
 			create_building={
 				building="building_rye_farm"
 				level=4
@@ -558,7 +558,7 @@
 		}
 	}
 	s:STATE_MAZOVIA={
-		region_state:RUS={
+		region_state:POL={
 			create_building={
 				building="building_furniture_manufacturies"
 				level=1
@@ -638,7 +638,7 @@
 		}
 	}
 	s:STATE_GREATER_POLAND={
-		region_state:RUS={
+		region_state:POL={
 			create_building={
 				building="building_textile_mills"
 				level=1
@@ -654,7 +654,7 @@
 		}
 	}
 	s:STATE_LESSER_POLAND={
-		region_state:RUS={
+		region_state:POL={
 			create_building={
 				building="building_paper_mills"
 				level=1
@@ -676,7 +676,7 @@
 		}
 	}
 	s:STATE_WEST_PRUSSIA={
-		region_state:PRU={
+		region_state:POL={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -720,7 +720,7 @@
 		}
 	}
 	s:STATE_POSEN={
-		region_state:PRU={
+		region_state:POL={
 			create_building={
 				building="building_food_industry"
 				level=5
@@ -784,7 +784,7 @@
 		}
 	}
 	s:STATE_EAST_GALICIA={
-		region_state:AUS={
+		region_state:UKR={
 			create_building={
 				building="building_government_administration"
 				level=3
@@ -852,7 +852,7 @@
 		}
 	}
 	s:STATE_BEKES={
-		region_state:AUS={
+		region_state:ROM={
 			create_building={
 				building="building_wheat_farm"
 				level=2
@@ -912,7 +912,7 @@
 		}
 	}
 	s:STATE_BANAT={
-		region_state:AUS={
+		region_state:ROM={
 			create_building={
 				building="building_wheat_farm"
 				level=3
@@ -970,9 +970,23 @@
 				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" "pm_merchant_guilds_building_logging_camp" }
 			}
 		}
+		region_state:UKR={
+			create_building={
+				building="building_wheat_farm"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_citrus_orchards" }
+			}
+			create_building={
+				building="building_logging_camp"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" "pm_merchant_guilds_building_logging_camp" }
+			}
+		}		
 	}
 	s:STATE_SOUTHERN_TRANSYLVANIA={
-		region_state:AUS={
+		region_state:ROM={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -1000,7 +1014,7 @@
 		}
 	}
 	s:STATE_NORTHERN_TRANSYLVANIA={
-		region_state:AUS={
+		region_state:ROM={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -1034,7 +1048,7 @@
 		}
 	}
 	s:STATE_MOLDAVIA={
-		region_state:AUS={
+		region_state:ROM={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -1060,7 +1074,7 @@
 				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" "pm_merchant_guilds_building_logging_camp" }
 			}
 		}
-		region_state:MOL={
+		region_state:UKR={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -1088,7 +1102,7 @@
 		}
 	}
 	s:STATE_WALLACHIA={
-		region_state:WAL={
+		region_state:ROM={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -1146,7 +1160,7 @@
 		}
 	}
 	s:STATE_BESSARABIA={
-		region_state:RUS={
+		region_state:ROM={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
