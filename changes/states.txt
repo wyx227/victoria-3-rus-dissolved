@@ -1,0 +1,289 @@
+	s:STATE_ROSTOV = {
+		create_state = {
+			country = c:RUS
+			owned_provinces = { "x00D080" "x015080" "x045D1F" "x05C86D" "x1C7933" "x1F3466" "x25A8D9" "x2BA298" "x2BC1EA" "x2C7795" "x31FA95" "x3B9730" "x45A839" "x4C684C" "x540AA7" "x5469A6" "x566420" "x5FF764" "x698B74" "x6BA92A" "x7C8235" "x7CE092" "x805180" "x877DBA" "x8C259F" "x92B853" "x965A33" "xA34CA7" "xA526B5" "xA71AE3" "xAFB12B" "xAFC5AE" "xB3584E" "xBCA729" "xC05180" "xC8C540" "xCAE51A" "xCDEA34" "xCF1287" "xD1C0D1" "xD9240D" "xDDE385" "xE0A7F7" "xE0DD8E" "xE3D4F3" "xFE531B" "xFEDE19" "xFFA259" }
+		}
+		
+		add_homeland = ukrainian
+		add_homeland = russian
+    }
+
+
+	s:STATE_KUBAN = {
+		create_state = {
+			country = c:RUS
+			owned_provinces = { x522F82 xE6667B x80D080 x0E69B9 x33CC4D x6F16AA x469A99 x191F70 xF51533 x3C9016 x76B63F x405000 x594403 x708C99  x16687C x9809B7 x89223D x3E954F xBC214C x9BAE11 xF88EA3 xE2E1EB x7685A4 xD7EDE7 xEB2EF5 x9A01E0 xB3593A xE0E16A xF7D005 x929AC4 xA4B654 x32FEBA xAA6E62 x565E50 x6B2515 xC0D001 x9A43C9 x796017 x61D073 xC05001 x668A47 x23F98B x56FD87 x405080 x793FDE xEE9B40 x9B5EC8 x1ED727 x891792 x76C012 }
+			state_type = unincorporated
+		}
+		create_state = {
+			country = c:CIR
+			owned_provinces = { xB63D94 x7BCBCC x6BB70E x2CF115 xC88562 xD5648D x2E1A32 xBCF376 xD9CD9D x83F33B xAF4F59 x2790A8 }
+		}
+		
+		add_homeland = russian
+		add_homeland = ukrainian
+		add_homeland = north_caucasian
+	}    
+
+	s:STATE_KURSK = {
+		create_state = {
+			country = c:RUS
+			owned_provinces = { x1A9007 x4EB8EA x20C1C2 x47C81B xC0E0E0 x69B611 x2198C8 x53EF9C xA79E4A x31B814 x3374D9 xF5419E xBEE23A xC7194D x669560 x21A0A0 xEABB0F x331CB3 x6A8F2C x4C0018 x45FA32 xF50161 x05E237 x8BEB3F xCE6B77 xE458EF x4A6AE0 xF57AA5 x4CD7AF x40DFDF x91942B x9E14B9 xF553F9 xC761A3 x0CA133 x607311 x172A98 xA6F3BC xBA2909 xAD54E9 xCF35AA x1C692E x828B91 x9E5DCB x738BEC x743EA5 x030048 x1A7021 xA87FC3 x6BEE31 xA0A0A0 x857200 }
+		}
+		
+		add_homeland = ukrainian
+		add_homeland = russian		
+	}
+
+
+
+
+# UA1 means CRIMEA
+	s:STATE_CRIMEA = {
+		create_state = {
+			country = c:UA1
+			owned_provinces = {
+				x9426E7 x61F467 x87516C x6B9AB7 x1C2E4D x31E0E0 x706060 xF56D13 xB0DFDF
+			}
+		}
+		add_homeland = russian
+		add_homeland = tatar
+		add_homeland = ukrainian
+	}    
+
+	s:STATE_LUHANSK = {
+		create_state = {
+			country = c:UAC
+			owned_provinces = {
+				x7161E0 xB06935 x9A1118 xBBC6BF xA0A57F xBC52ED x628FBE x3C304D x5B788C xC262E0
+			}
+		}
+		create_state = {
+			country = c:UA5
+			owned_provinces = {
+				xF0E061 x500F88 x7020DF x87109C xAD4F1C x386376 x637D8D xF061E0 x5AB195 x76E2A3 x71E0E0 xB69E4B
+			}
+		}
+		create_state = {
+			country = c:UAK
+			owned_provinces = {
+				x04E110 xFA0D5E x9C070F x14786A x46BD2E x4C5706
+			}
+		}
+		create_state = {
+			country = c:UA4
+			owned_provinces = {
+				xCFBD13 x0EBC1D x7141E0 x19213B xF60A93 x924D7E x3DA304 x5BE6ED
+			}
+		}
+		create_state = {
+			country = c:UAX
+			owned_provinces = {
+				xF06161 xA1BAF7
+			}
+		}
+		create_state = {
+			country = c:UA8
+			owned_provinces = {
+				x055C67 x35FCF1 x580D2A x4202ED xE6C06A x58331B x71E061 xB285AE
+			}
+		}
+		add_homeland = ukrainian
+	}
+
+	s:STATE_CHERSON = {
+		create_state = {
+			country = c:UAF
+			owned_provinces = {
+				x716121 xB5123B x3E66A1 x71E021 xD7E3C1 xA669E7 x421B54 xA81C77 xE4AA78 x0E1864
+			}
+		}
+		create_state = {
+			country = c:UA2
+			owned_provinces = {
+				xF9066A
+			}
+		}
+		create_state = {
+			country = c:UAX
+			owned_provinces = {
+				x8A09FD x3E5AF0 x135B1E x000AE0
+			}
+		}
+		create_state = {
+			country = c:UAE
+			owned_provinces = {
+				xB02161 xFDD2CF x89CE7C xCC0D93 x305004 x13997A
+			}
+		}
+		create_state = {
+			country = c:UAB
+			owned_provinces = {
+				x726291 x4ABD60 x7FC1CF x9E24DE x925815 xE315A3 x652CE8 x29EE58
+			}
+		}
+		create_state = {
+			country = c:UA4
+			owned_provinces = {
+				xFD6659 xF0E0A0 x73216A
+			}
+		}
+		add_homeland = ukrainian
+	}    
+
+# UAF is Odeska Oblast
+	s:STATE_BESSARABIA = {
+		create_state = {
+			country = c:UAF
+			owned_provinces = {
+				x5F2259 xB0E0A0 x6BF7B8 x23621B
+			}
+		}
+		add_homeland = romanian
+		add_homeland = ukrainian
+	}
+
+	s:STATE_EAST_GALICIA = {
+		create_state = {
+			country = c:UAO
+			owned_provinces = {
+				x7EDD9E
+			}
+		}
+		create_state = {
+			country = c:UA9
+			owned_provinces = {
+				xD0E061 x489C42 x53932F xC58E1C
+			}
+		}
+		create_state = {
+			country = c:UAD
+			owned_provinces = {
+				xE369C4 x8F9F20 xCAE5B0 x11A021 xA2805F x9D8087 xCDD223
+			}
+		}
+		create_state = {
+			country = c:UAJ
+			owned_provinces = {
+				xEFE270 xC1B262 x4D0305 x053163 xB021A0 xA3CF78
+			}
+		}
+		add_homeland = polish
+		add_homeland = ukrainian
+	}    
+
+# UA7 is Zakarpatia
+	s:STATE_EAST_SLOVAKIA = {
+		create_state = {
+			country = c:UA7
+			owned_provinces = {
+				x69BAC7 xC85CD0 x359378 xA0531B
+			}
+		}
+		add_homeland = slovak
+		add_homeland = ukrainian
+	}
+
+	s:STATE_VOLHYNIA = {
+		create_state = {
+			country = c:UA3
+			owned_provinces = {
+				xE2F553 x1A9FFE xAFEBC8 x5A26AE x862F77 x80FB0F
+			}
+		}
+		create_state = {
+			country = c:UAJ
+			owned_provinces = {
+				x71E0A0
+			}
+		}
+		create_state = {
+			country = c:UAH
+			owned_provinces = {
+				xE001E0 x8201CF xAC3079 x37A636 x0EB3C7 xAC6FAE x364496
+			}
+		}
+		create_state = {
+			country = c:UAO
+			owned_provinces = {
+				x7161A0
+			}
+		}
+		create_state = {
+			country = c:UAM
+			owned_provinces = {
+				x33471E x4700D0 x905D21 x4D686A x6AC779
+			}
+		}
+		create_state = {
+			country = c:UA2
+			owned_provinces = {
+				x884128 x9B1B0B xE2B51B
+			}
+		}
+		create_state = {
+			country = c:UA6
+			owned_provinces = {
+				x6168EB xBD8617
+			}
+		}
+		add_homeland = ukrainian
+	}
+
+	s:STATE_KIEV = {
+		create_state = {
+			country = c:UA2
+			owned_provinces = {
+				xF0E021 x022620 x11F253 xFF7D57 xD6537D x98E808 x4C92CC x1C7F2D
+			}
+		}
+		create_state = {
+			country = c:UAB
+			owned_provinces = {
+				xF061A0 xDCE378
+			}
+		}
+		create_state = {
+			country = c:UA6
+			owned_provinces = {
+				x2472F3 x46B48F x2C6218 x1121A0 xA8600B x31F90F x2D80BA xD5E7D2
+			}
+		}
+		create_state = {
+			country = c:UAL
+			owned_provinces = {
+				xCD2CE5 xD8EA8C x7DA787 x82AE2F x54B5C4 x270CD8
+			}
+		}
+		create_state = {
+			country = c:UAA
+			owned_provinces = {
+				xDD790F x01E0E0 x18E9E1 x8CE323 x2E05DE xA9FA61 xEA1E16 xE6AF95 xE08061 x7DF67D
+			}
+		}
+		create_state = {
+			country = c:UAZ
+			owned_provinces = {
+				x83B302 xF49A18 x9723F8 x387D75 x34B4C6 x5F64A2 x675DF4 x85EECF x348364 xC31716 xFB1DC5 xBDDA3A
+			}
+		}
+		create_state = {
+			country = c:UAI
+			owned_provinces = {
+				xA12B5A x03D6A7 xDD344F x1458A6 x0A69A9 xD0DA95 xAD965B
+			}
+		}
+		create_state = {
+			country = c:UAK
+			owned_provinces = {
+				x0319ED xFC92C5 x0B484F x0708A3 x36D880
+			}
+		}
+		create_state = {
+			country = c:UAY
+			owned_provinces = {
+				xE996D1 xE6CADD xE682D3 xDAAE11 xCD72A1 xCB4129 xC482AD xBCC260 x817D22 x7EAE07 x3ACCE8 x2C6090 x1CB8D8
+			}
+		}
+		add_homeland = ukrainian
+	}
