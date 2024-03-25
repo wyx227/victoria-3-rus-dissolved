@@ -45,7 +45,7 @@
 		}
 	}
 	s:STATE_BREST = {
-		region_state:BYE = {
+		region_state:RUS = {
 			create_pop = {
 				culture = polish
 				size = 143992
@@ -156,7 +156,7 @@
 		}
 	}
 	s:STATE_ORSHA = {
-		region_state:BYE = {
+		region_state:RUS = {
 			create_pop = {
 				culture = russian
 				size = 88400
@@ -280,7 +280,7 @@
 		}
 	}
 	s:STATE_KURSK = {
-		region_state:RUS = {
+		region_state:UKR = {
 			create_pop = {
 				culture = russian
 				size = 2295600
@@ -366,7 +366,7 @@
 		}
 	}
 	s:STATE_MINSK = {
-		region_state:BYE = {
+		region_state:RUS = {
 			create_pop = {
 				culture = polish
 				size = 139932
@@ -394,7 +394,7 @@
 		}
 	}
 	s:STATE_ROSTOV = {
-		region_state:RUS = {
+		region_state:UKR = {
 			create_pop = {
 				culture = ukrainian
 				size = 356600
@@ -439,7 +439,7 @@
 		}
 	}
 	s:STATE_ESTONIA = {
-		region_state:EST = {
+		region_state:RUS = {
 			create_pop = {
 				culture = estonian
 				size = 573800
@@ -459,7 +459,7 @@
 		}
 	}
 	s:STATE_LATVIA = {
-		region_state:LAT = {
+		region_state:RUS = {
 			create_pop = {
 				culture = latvian
 				size = 1047496
@@ -492,7 +492,7 @@
 		}
 	}
 	s:STATE_LITHUANIA = {
-		region_state:LIT = {
+		region_state:RUS = {
 			create_pop = {
 				culture = polish
 				size = 111796
@@ -516,7 +516,7 @@
 		}
 	}
 	s:STATE_MAZOVIA = {
-		region_state:POL = {
+		region_state:RUS = {
 			create_pop = {
 				culture = polish
 				size = 1676000
@@ -567,7 +567,7 @@
 		}
 	}
 	s:STATE_GREATER_POLAND = {
-		region_state:POL = {
+		region_state:RUS = {
 			create_pop = {
 				culture = polish
 				size = 897396
@@ -588,7 +588,7 @@
 		}
 	}
 	s:STATE_LESSER_POLAND = {
-		region_state:POL = {
+		region_state:RUS = {
 			create_pop = {
 				culture = polish
 				size = 1057396
@@ -613,7 +613,7 @@
 		}
 	}
 	s:STATE_WEST_PRUSSIA = {
-		region_state:POL = {
+		region_state:PRU = {
 			create_pop = {
 				culture = north_german
 				size = 452400
@@ -666,7 +666,7 @@
 		}
 	}
 	s:STATE_POSEN = {
-		region_state:POL = {
+		region_state:PRU = {
 			create_pop = {
 				culture = north_german
 				size = 540400
@@ -687,25 +687,42 @@
 		}
 	}
 	s:STATE_WEST_GALICIA = {
-		region_state:POL = {
+		region_state:AUS = {
 			create_pop = {
 				culture = polish
-				size = 1912404
+				size = 1740004
 			}
 			create_pop = {
 				culture = south_german
-				size = 32000
+				size = 28000
 			}
 			create_pop = {
 				culture = ukrainian
-				size = 168000
+				size = 152000
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 168000
+				size = 136000
 			}
 		}
-		
+		region_state:KRA = {
+			create_pop = {
+				culture = polish
+				size = 172396
+			}
+			create_pop = {
+				culture = south_german
+				size = 4000
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 32004
+			}
+			create_pop = {
+				culture = ukrainian
+				size = 16000
+			}
+		}
 	}
 	s:STATE_EAST_GALICIA = {
 		region_state:UKR = {
@@ -754,7 +771,7 @@
 		}
 	}
 	s:STATE_BEKES = {
-		region_state:ROM = {
+		region_state:AUS = {
 			create_pop = {
 				culture = hungarian
 				size = 189292
@@ -859,7 +876,7 @@
 		}
 	}
 	s:STATE_BANAT = {
-		region_state:ROM = {
+		region_state:AUS = {
 			create_pop = {
 				culture = south_german
 				size = 312640
@@ -933,24 +950,24 @@
 		region_state:AUS = {
 			create_pop = {
 				culture = hungarian
-				size = 90848
+				size = 150848
 			}
 			create_pop = {
 				culture = slovak
-				size = 576000
+				size = 606000
 			}
 			create_pop = {
 				culture = polish
-				size = 3000
+				size = 4000
 			}
 			create_pop = {
 				culture = ukrainian
-				size = 34000
+				size = 4000
 			}
 			create_pop = {
 				culture = hungarian
 				religion = protestant
-				size = 118452
+				size = 88452
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -958,38 +975,27 @@
 			}
 			create_pop = {
 				culture = romanian
-				size = 52000
+				size = 60000
 			}
 			create_pop = {
 				culture = south_german
 				size = 40080
 			}
 		}
+
 		region_state:UKR = {
+			create_pop = {
+				culture = ukrainian
+				size = 160000
+			}
 			create_pop = {
 				culture = hungarian
 				size = 80000
 			}
-			create_pop = {
-				culture = ukrainian
-				size = 180000
-			}
-			create_pop = {
-				culture = slovak
-				size = 50000
-			}
-			create_pop = {
-				culture = polish
-				size = 5000
-			}
-			create_pop = {
-				culture = romanian
-				size = 12000
-			}
 		}
 	}
 	s:STATE_SOUTHERN_TRANSYLVANIA = {
-		region_state:ROM = {
+		region_state:AUS = {
 			create_pop = {
 				culture = hungarian
 				religion = protestant
@@ -1018,7 +1024,7 @@
 		}
 	}
 	s:STATE_NORTHERN_TRANSYLVANIA = {
-		region_state:ROM = {
+		region_state:AUS = {
 			create_pop = {
 				culture = hungarian
 				religion = protestant
@@ -1047,124 +1053,72 @@
 		}
 	}
 	s:STATE_MOLDAVIA = {
-		
+
+		region_state:MOL = { # Ballpark estimate: 1,358,409 total for 1836, guessing that its recorded 1859 census marked a 7.77% growth over 1836 or that 1836 is 92.79% of the 1859 census, drawn from a trendline of Transylvanian censuses 1784-1850
+			create_pop = {
+				culture = romanian
+				size = 1241552
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = romanian
+				size = 116857
+			}
+		}
+
 		region_state:UKR = {
 			create_pop = {
-				culture = polish
-				size = 6008
-			}
-			create_pop = {
-				culture = romanian
-				size = 74000
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 9004
-			}
-			create_pop = {
-				culture = hungarian
-				size = 5996
-			}
-			create_pop = {
 				culture = ukrainian
-				size = 124400
+				size = 144400
 			}
 			create_pop = {
 				culture = south_german
-				size = 3000
+				size = 32000
 			}
-		}
-		region_state:MOL = {
-			create_pop = {
-				culture = romanian
-				size = 1463304
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = romanian
-				size = 10000
-			}
-			create_pop = {
-				culture = polish
-				size = 12008
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 11004
-			}
-			create_pop = {
-				culture = hungarian
-				size = 6996
-			}
-			create_pop = {
-				culture = ukrainian
-				size = 24400
-			}
-			create_pop = {
-				culture = south_german
-				size = 29000
-			}
-		}
+
+
 	}
-	s:STATE_WALLACHIA = {
-		region_state:ROM = {
+	s:STATE_WALLACHIA = { # Ballpark estimate: 2,227,865 total for 1836, guessing that its recorded 1859 census marked a 7.77% growth over 1836 or that 1836 is 92.79% of the 1859 census, drawn from a trendline of Transylvanian censuses 1784-1850
+		region_state:WAL = {
 			create_pop = {
 				culture = romanian
-				size = 1094208
+				size = 2107689
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = romanian
-				size = 10000
+				size = 120176
 			}
 		}
 	}
 	s:STATE_BESSARABIA = {
+		region_state:UKR = {
+
+			create_pop = {
+				culture = bulgarian
+				size = 12000
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 95996
+			}
+			create_pop = {
+				culture = turkish
+				religion = orthodox
+				size = 32000
+			}
+			create_pop = {
+				culture = ukrainian
+				size = 40000
+			}
+		}
+
 		region_state:MOL = {
 			create_pop = {
 				culture = romanian
-				size = 718396
+				size = 808396
 			}
-			create_pop = {
-				culture = bulgarian
-				size = 5000
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 55996
-			}
-			create_pop = {
-				culture = turkish
-				religion = orthodox
-				size = 27000
-			}
-			create_pop = {
-				culture = ukrainian
-				size = 5000
-			}
-		}
-		region_state:UKR = {
-			create_pop = {
-				culture = romanian
-				size = 85000
-			}
-			create_pop = {
-				culture = bulgarian
-				size = 17000
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 30000
-			}
-			create_pop = {
-				culture = turkish
-				religion = orthodox
-				size = 5000
-			}
-			create_pop = {
-				culture = ukrainian
-				size = 95000
-			}
+
 		}
 	}
 }
