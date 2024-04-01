@@ -1578,6 +1578,30 @@
 		}
 	}
 
+	c:POL ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_poland
+			name = polish_corps
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_GREATER_POLAND
+				count = 20
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_GREATER_POLAND
+				count = 10
+			}
+
+			save_scope_as = polish_corps
+
+
+		}
+	}
+
 	c:RUS ?= {
 		create_military_formation = {
 			type = army
@@ -1821,11 +1845,7 @@
 				count = 3
 			}
 
-			combat_unit = { # 2nd Horse-Artillery Division
-				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_ROSTOV
-				count = 1
-			}
+
 			save_scope_as = ii_pekhotniy_korpus
 		}
 
@@ -1992,30 +2012,6 @@
 			}
 
 
-			combat_unit = { # Modlin and Praga Infantry
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_MAZOVIA
-				count = 2
-			}
-
-			combat_unit = { # Lublin and Zamosc Jägers
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_LESSER_POLAND
-				count = 2
-			}
-
-			# 5th Light Cavalry Division
-			combat_unit = { # Akhtyrka and Aleksandriya Hussar Regiments
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_KIEV
-				count = 2
-			}
-			combat_unit = { # Bug and Odessa Lancer Regiments
-				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_CHERSON
-				count = 2
-			}
-
 			# 5th Artillery Division
 			combat_unit = { # 13th, 14th, and 15th Field Artillery Brigades
 				type = unit_type:combat_unit_type_cannon_artillery
@@ -2046,11 +2042,7 @@
 			hq_region = sr:region_russia
 			name = Otdelniy_Grenaderskiy_Korpus
 
-			combat_unit = { # The Crown Prince of Prussia’s and Graf Arakcheev’s Grenadiers
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_GREATER_POLAND
-				count = 2
-			}
+
 
 			combat_unit = { # Samogitia Grenadiers and Field Marshal Prince Barclay de Tolly’s Carabiniers
 				type = unit_type:combat_unit_type_line_infantry

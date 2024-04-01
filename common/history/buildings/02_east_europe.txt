@@ -642,7 +642,7 @@
 		}
 	}
 	s:STATE_MAZOVIA={
-		region_state:RUS={
+		region_state:POL={
 			create_building={
 				building="building_furniture_manufacturies"
 				level=1
@@ -722,7 +722,7 @@
 		}
 	}
 	s:STATE_GREATER_POLAND={
-		region_state:RUS={
+		region_state:POL={
 			create_building={
 				building="building_textile_mills"
 				level=1
@@ -738,7 +738,7 @@
 		}
 	}
 	s:STATE_LESSER_POLAND={
-		region_state:RUS={
+		region_state:POL={
 			create_building={
 				building="building_paper_mills"
 				level=1
