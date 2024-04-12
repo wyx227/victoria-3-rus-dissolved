@@ -35,11 +35,11 @@
 		region_state:UKR = {
 			create_pop = {
 				culture = circassian
-				size = 328804
+				size = 900000
 			}
 			create_pop = {
 				culture = north_caucasian
-				size = 218804
+				size = 250000
 			}
 			create_pop = {
 				culture = greek
@@ -58,16 +58,7 @@
 				size = 4000
 			}
 		}
-		region_state:CIR = {
-			create_pop = {
-				culture = circassian
-				size = 531000
-			}
-			create_pop = {
-				culture = north_caucasian
-				size = 32140
-			}
-		}
+
 	}
 	s:STATE_ARMENIA = {
 		region_state:RUS = {
