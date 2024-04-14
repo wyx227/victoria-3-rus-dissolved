@@ -227,7 +227,8 @@ STATE_LUHANSK = {
     capped_resources = {
         bg_sulfur_mining = 80 # Donbass + Zaporozhe
         bg_coal_mining = 80
-        bg_iron_mining = 45
+        bg_lead_mining = 80
+        bg_iron_mining = 100 # Kriviy Rih is here
         bg_logging = 7
         bg_fishing = 10
     }
@@ -281,7 +282,6 @@ STATE_CHERSON = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_vineyard_plantations" }
     capped_resources = {
         bg_coal_mining = 48
-        bg_iron_mining = 50 # Kryvyj Ryh is here
         bg_logging = 6
         bg_fishing = 12
     }

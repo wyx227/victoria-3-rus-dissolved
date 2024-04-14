@@ -114,7 +114,7 @@
 		}
 	}
 	s:STATE_BREST={
-		region_state:RUS={
+		region_state:BYE={
 			create_building={
 				building="building_rye_farm"
 				level=5
@@ -278,7 +278,7 @@
 		}
 	}
 	s:STATE_ORSHA={
-		region_state:RUS={
+		region_state:BYE={
 			create_building={
 				building="building_paper_mills"
 				level=3
@@ -510,7 +510,7 @@
 		}
 	}
 	s:STATE_MINSK={
-		region_state:RUS={
+		region_state:BYE={
 			create_building={
 				building="building_government_administration"
 				level=5
@@ -626,7 +626,7 @@
 		}
 	}
 	s:STATE_LITHUANIA={
-		region_state:RUS={
+		region_state:BYE={
 			create_building={
 				building="building_rye_farm"
 				level=4

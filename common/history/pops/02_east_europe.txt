@@ -45,7 +45,7 @@
 		}
 	}
 	s:STATE_BREST = {
-		region_state:RUS = {
+		region_state:BYE = {
 			create_pop = {
 				culture = polish
 				size = 143992
@@ -156,7 +156,7 @@
 		}
 	}
 	s:STATE_ORSHA = {
-		region_state:RUS = {
+		region_state:BYE = {
 			create_pop = {
 				culture = russian
 				size = 88400
@@ -366,7 +366,7 @@
 		}
 	}
 	s:STATE_MINSK = {
-		region_state:RUS = {
+		region_state:BYE = {
 			create_pop = {
 				culture = polish
 				size = 139932
@@ -492,7 +492,7 @@
 		}
 	}
 	s:STATE_LITHUANIA = {
-		region_state:RUS = {
+		region_state:BYE = {
 			create_pop = {
 				culture = polish
 				size = 111796

@@ -1,0 +1,9 @@
+COUNTRIES = {
+	c:CAU ?= {
+		effect_starting_technology_tier_3_tech = yes
+
+		set_tax_level = medium
+
+		
+	}
+}

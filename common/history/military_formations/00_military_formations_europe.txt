@@ -1602,6 +1602,102 @@
 		}
 	}
 
+	c:BYE ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_dnieper
+			name = belarussian_corps
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_MINSK
+				count = 20
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_MINSK
+				count = 10
+			}
+
+			save_scope_as = belarussian_corps
+
+
+		}
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_baltic
+			name = belarussian_baltic_fleet
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_man_o_war
+				state_region = s:STATE_LITHUANIA
+				count = 5
+			}
+
+			save_scope_as = belarussian_baltic_fleet
+		}	
+
+	}
+
+	c:CAU ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_caucasus
+			name = caucassian_corps
+
+			combat_unit = { # Apsheron Infantry
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_AZERBAIJAN
+				count = 1
+			}
+
+			combat_unit = { # Field Marshal the Prince of Warsaw, Graf Paskevich of Erivan’s Infantry
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_ARMENIA
+				count = 1
+			}
+
+			combat_unit = { # Tiflis and Mingrelia Jägers, 1st Georgian Foot Regiment
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_GREATER_CAUCASUS
+				count = 3
+			}
+
+			combat_unit = { # Mussulman Irregular Horse Regiment, Caucasian Mountaineer Irregular Horse Regiment
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_ARMENIA
+				count = 2
+			}
+
+			# Caucasus Artillery Division
+			combat_unit = { # Caucasus Grenadier Artillery Brigade and the 21st and 22nd Field Artillery Brigades
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_GREATER_CAUCASUS
+				count = 3
+			}
+
+			save_scope_as = caucassian_corps
+
+
+		}
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_caucasus
+			name = caucassian_fleet
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_GREATER_CAUCASUS
+				count = 5
+			}
+
+			save_scope_as = caucassian_fleet
+		}	
+
+	}
+
+
 	c:RUS ?= {
 		create_military_formation = {
 			type = army
@@ -1620,11 +1716,6 @@
 				count = 14
 			}
 
-			combat_unit = { # L.-Gds. Lithuania Regiment
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_LITHUANIA
-				count = 1
-			}
 
 			combat_unit = { # His Majesty the King of Prussia’s Grenadier Regiment, L.-Gds. Volhynia Regiment
 				type = unit_type:combat_unit_type_line_infantry
@@ -1738,36 +1829,7 @@
 
 
 
-			combat_unit = { # Apsheron Infantry
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_AZERBAIJAN
-				count = 1
-			}
 
-			combat_unit = { # Field Marshal the Prince of Warsaw, Graf Paskevich of Erivan’s Infantry
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_ARMENIA
-				count = 1
-			}
-
-			combat_unit = { # Tiflis and Mingrelia Jägers, 1st Georgian Foot Regiment
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_GREATER_CAUCASUS
-				count = 3
-			}
-
-			combat_unit = { # Mussulman Irregular Horse Regiment, Caucasian Mountaineer Irregular Horse Regiment
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_ARMENIA
-				count = 2
-			}
-
-			# Caucasus Artillery Division
-			combat_unit = { # Caucasus Grenadier Artillery Brigade and the 21st and 22nd Field Artillery Brigades
-				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_GREATER_CAUCASUS
-				count = 3
-			}
 
 			# Caucasian (Cossack) Line
 			combat_unit = { # Terek, Kizlyar, and Grebensk Line Cossack regiments
@@ -1863,11 +1925,7 @@
 			hq_region = sr:region_dnieper
 			name = 3y_Pekhotniy_Korpus
 
-			combat_unit = { # Field Marshal the Duke of Wellington’s and Mogilev Infantry, Vitebsk and Polotsk Jägers
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_ORSHA
-				count = 4
-			}
+
 
 
 			combat_unit = { # Bryansk Jägers
@@ -1876,17 +1934,7 @@
 				count = 1
 			}
 
-			# 3rd Light Cavalry Division
-			combat_unit = { # Field Marshal Graf Wittgenstein’s and the Prince of Orange’s Hussar Regiments.
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_KIEV
-				count = 2
-			}
-			combat_unit = { # Lithuania and Volhynia Lancer Regiments.
-				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_LITHUANIA
-				count = 2
-			}
+
 
 			# 3rd Artillery Division
 			combat_unit = { # 7th, 8th, and 9th Field Artillery Brigades
@@ -1991,25 +2039,7 @@
 			hq_region = sr:region_poland
 			name = 5y_Pekhotniy_Korpus
 
-			combat_unit = { # Brest and Bialystok Infantry
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_BREST
-				count = 2
-			}
 
-			combat_unit = { # Lithuania and Vilna Jägers
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_LITHUANIA
-				count = 2
-			}
-
-
-
-			combat_unit = { # Minsk Infantry
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_MINSK
-				count = 1
-			}
 
 
 			# 5th Artillery Division
@@ -2044,11 +2074,7 @@
 
 
 
-			combat_unit = { # Samogitia Grenadiers and Field Marshal Prince Barclay de Tolly’s Carabiniers
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_LITHUANIA
-				count = 2
-			}
+
 
 
 			combat_unit = { # Siberia and Field Marshal Graf Rumyantsov of the Transdanube’s Grenadiers
@@ -2063,12 +2089,6 @@
 				count = 2
 			}
 
-			# 7th Light Cavalry Division
-			combat_unit = { #  His Imperial Highness the Grand Duke Michael Pavlovich’s and His Majesty the King of Württemberg’s Hussar Regiments
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_MINSK
-				count = 2
-			}
 			combat_unit = { # His Imperial Highness the Grand Duke Michael Pavlovich’s and Yamburg Lancer Regiments
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_MOSCOW
@@ -2199,11 +2219,6 @@
 				count = 6
 			}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_LATVIA
-				count = 1
-			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
