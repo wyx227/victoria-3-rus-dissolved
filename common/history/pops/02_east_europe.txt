@@ -439,7 +439,7 @@
 		}
 	}
 	s:STATE_ESTONIA = {
-		region_state:RUS = {
+		region_state:UBD = {
 			create_pop = {
 				culture = estonian
 				size = 573800
@@ -459,7 +459,7 @@
 		}
 	}
 	s:STATE_LATVIA = {
-		region_state:RUS = {
+		region_state:UBD = {
 			create_pop = {
 				culture = latvian
 				size = 1047496
@@ -492,7 +492,7 @@
 		}
 	}
 	s:STATE_LITHUANIA = {
-		region_state:BYE = {
+		region_state:UBD = {
 			create_pop = {
 				culture = polish
 				size = 111796

@@ -2415,7 +2415,7 @@ UBD = {
 
 	tier = kingdom
 	
-	cultures = { latvian estonian lithuanian }
+	cultures = { north_german latvian estonian lithuanian }
 	capital = STATE_LATVIA
 }
 

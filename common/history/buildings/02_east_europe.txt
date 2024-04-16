@@ -588,7 +588,7 @@
 		}
 	}
 	s:STATE_ESTONIA={
-		region_state:RUS={
+		region_state:UBD={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -610,7 +610,7 @@
 		}
 	}
 	s:STATE_LATVIA={
-		region_state:RUS={
+		region_state:UBD={
 			create_building={
 				building="building_rye_farm"
 				level=3
@@ -626,7 +626,7 @@
 		}
 	}
 	s:STATE_LITHUANIA={
-		region_state:BYE={
+		region_state:UBD={
 			create_building={
 				building="building_rye_farm"
 				level=4
