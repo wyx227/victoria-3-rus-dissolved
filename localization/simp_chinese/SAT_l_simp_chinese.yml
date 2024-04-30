@@ -1,0 +1,5 @@
+l_simp_chinese:
+  # Food Industry
+ pm_cannery_sat: "罐装鱼类和肉类"
+ pm_vacuum_canning_meat: "真空肉包装"
+ pm_vacuum_canning_fish: "真空鱼类包装"

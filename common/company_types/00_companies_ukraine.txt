@@ -1,0 +1,133 @@
+company_ukrzaliznytsija = {
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/uz.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
+	
+	flavored_company = yes
+	
+	building_types = {  
+        building_railway
+	}
+	
+	potential = {
+		has_interest_marker_in_region = region_dnieper
+	}
+	
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				state_region = s:STATE_LUHANSK
+			}
+		}
+	}		
+	
+	possible = { 
+		any_scope_state = {
+			state_region = s:STATE_LUHANSK
+			is_incorporated = yes
+			any_scope_building = {
+				OR = {
+					is_building_type = building_railway
+				}
+				level >= 5
+			}
+		}
+		has_technology_researched = railways
+	}
+	
+	prosperity_modifier = {
+		building_railway_throughput_add = 0.25
+	}	
+	
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+company_ukrenerho = {
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/ukrenerho.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+	
+	flavored_company = yes
+	
+	building_types = {  
+
+		building_power_plant
+	}
+	
+	potential = {
+		has_interest_marker_in_region = region_dnieper
+	}
+	
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				state_region = s:STATE_KIEV
+			}
+		}
+	}		
+	
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_KIEV
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_power_plant
+				level >= 3
+			}
+		}
+		has_technology_researched = electrical_generation
+	}
+	
+	prosperity_modifier = {
+		building_electrics_industry_throughput_add = 0.1
+	}	
+	
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+company_yuzhmash = {
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/yuzhmash.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+	
+	flavored_company = yes
+	
+	building_types = {  
+		building_motor_industry
+	}
+	
+	potential = {
+		has_interest_marker_in_region = region_dnieper
+	}
+	
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				state_region = s:STATE_LUHANSK
+			}
+		}
+	}		
+	
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_LUHANSK
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_motor_industry
+				level >= 3
+			}
+		}
+		has_technology_researched = atmospheric_engine
+	}
+	
+	prosperity_modifier = {
+		building_wheat_farm_throughput_add = 0.2
+	}
+	
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+
+
+}
