@@ -61,7 +61,7 @@ company_ukrenerho = {
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
 			any_scope_state = {
-				state_region = s:STATE_KIEV
+			state_region = s:STATE_KIEV
 			}
 		}
 	}		
@@ -87,47 +87,47 @@ company_ukrenerho = {
 	}
 }
 
-company_yuzhmash = {
-	icon = "gfx/interface/icons/company_icons/historical_company_icons/yuzhmash.dds"
-	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
-	
-	flavored_company = yes
-	
-	building_types = {  
-		building_motor_industry
-	}
-	
-	potential = {
-		has_interest_marker_in_region = region_dnieper
-	}
-	
-	attainable = {
-		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
-			any_scope_state = {
-				state_region = s:STATE_LUHANSK
-			}
-		}
-	}		
-	
-	possible = {
-		any_scope_state = {
-			state_region = s:STATE_LUHANSK
-			is_incorporated = yes
-			any_scope_building = {
-				is_building_type = building_motor_industry
-				level >= 3
-			}
-		}
-		has_technology_researched = atmospheric_engine
-	}
-	
-	prosperity_modifier = {
-		building_wheat_farm_throughput_add = 0.2
-	}
-	
-	ai_weight = {
-		value = 3 # Higher base value for flavored companies
-	}
+#company_yuzhmash = {
+##	icon = "gfx/interface/icons/company_icons/historical_company_icons/yuzhmash.dds"
+#	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+#	
+#	flavored_company = yes
+#	
+#	building_types = {  
+#		building_motor_industry
+#	}
+#	
+#	potential = {
+#		has_interest_marker_in_region = region_dnieper
+#	}
+#	
+#	attainable = {
+#		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+#			any_scope_state = {
+#				state_region = s:STATE_LUHANSK
+#			}
+#		}
+#	}		
+##	
+#	possible = {
+#		any_scope_state = {
+#			state_region = s:STATE_LUHANSK
+#			is_incorporated = yes
+#			any_scope_building = {
+#				is_building_type = building_motor_industry
+#				level >= 3
+#			}
+#		}
+#		has_technology_researched = atmospheric_engine
+#	}
+#	
+#	prosperity_modifier = {
+#		building_wheat_farm_throughput_add = 0.2
+#	}
+#	
+#	ai_weight = {
+#		value = 3 # Higher base value for flavored companies
+#	}
 
 
 }
