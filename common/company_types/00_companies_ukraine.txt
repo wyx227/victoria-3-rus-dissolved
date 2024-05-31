@@ -122,7 +122,7 @@ company_yuzhmash = {
 	}
 	
 	prosperity_modifier = {
-		building_wheat_farm_throughput_add = 0.2
+		building_motor_industry_throughput_add = 0.2
 	}
 	
 	ai_weight = {

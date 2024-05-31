@@ -249,7 +249,6 @@ STATE_KURSK = {
     capped_resources = {
         bg_logging = 18
         bg_iron_mining = 80 # Kursk has one of the biggest iron mine in Europe
-        bg_sulfur_mining = 50
     }
 }
 
