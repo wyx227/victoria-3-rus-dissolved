@@ -61,7 +61,7 @@ company_ukrenerho = {
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
 			any_scope_state = {
-				state_region = s:STATE_KIEV
+			state_region = s:STATE_KIEV
 			}
 		}
 	}		
