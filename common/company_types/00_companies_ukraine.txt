@@ -222,8 +222,8 @@ company_luhansk_teplovoz = {
 
 }
 
-company_vlenii = {
-	icon = "gfx/interface/icons/company_icons/historical_company_icons/luhansk_teplovoz.dds"
+company_velnii = {
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/velnii.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	
 	flavored_company = yes
@@ -246,7 +246,7 @@ company_vlenii = {
 	
 	possible = {
 		any_scope_state = {
-			state_region = s:STATE_LUHANSK
+			state_region = s:STATE_ROSTOV
 			is_incorporated = yes
 			any_scope_building = {
 				is_building_type = building_motor_industry
@@ -267,8 +267,8 @@ company_vlenii = {
 
 }
 
-company_maryshev = {
-	icon = "gfx/interface/icons/company_icons/historical_company_icons/luhansk_teplovoz.dds"
+company_malyshev = {
+	icon = "gfx/interface/icons/company_icons/historical_company_icons/malyshev.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	
 	flavored_company = yes
@@ -294,7 +294,7 @@ company_maryshev = {
 			state_region = s:STATE_LUHANSK
 			is_incorporated = yes
 			any_scope_building = {
-				is_building_type = building_motor_industry
+				is_building_type = building_war_machine_industry
 				level >= 3
 			}
 		}
