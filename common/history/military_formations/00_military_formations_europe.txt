@@ -1491,7 +1491,7 @@
 			name = pershiy_ukrainskiy_korpus
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
+				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_KIEV
 				count = 50
 			}
@@ -1502,9 +1502,11 @@
 				count = 50
 			}
 
-			save_scope_as = ukrainskiy_korpus_army
+			save_scope_as = kyivskyi_viiskovyi_okruh
 
 		}
+
+
 
 		create_military_formation = {
 			type = army
@@ -1512,7 +1514,7 @@
 			name = ii_ukrainskiy_korpus
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
+				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_EAST_GALICIA
 				count = 30
 			}
@@ -1523,7 +1525,7 @@
 				count = 30
 			}
 
-			save_scope_as = ii_ukrainskiy_korpus_army
+			save_scope_as = zakhidyi_viiskovyi_okruh
 
 		}
 
