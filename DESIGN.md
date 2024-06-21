@@ -59,11 +59,11 @@
   - STATE_KHARKOV: Khakov + Sumy
   - STATE_DONBASS: Luhansk + Donetsk
   - STATE_TAVRIA: Kherson + Krym
-  - STATE_ZAPORIZHZHA: Zaproizhzhia + Dniepropetrovsk + Kirovohrad
+  - STATE_ZAPORIZHZHIA: Zaproizhzhia + Dniepropetrovsk + Kirovohrad
   - STATE_LIVOBEREZHNA_UKRAINA: Chernihiv + Poltava
   - STATE_ODESSA: Odessa + Mykolaiv
   - STATE_PODOLIA: Vinnytsia + Khmelnytskyi
-  - STATE_VOHLYN: Volyn + Rivne
+  - STATE_VOLHYNIA: Volyn + Rivne
   - STATE_EAST_GALICIA: As it is
   - STATE_TRANSCARPATIA: As it is
   - STATE_NORTHERN_BUKOVINA: As it is
