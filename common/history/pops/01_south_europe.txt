@@ -482,7 +482,7 @@
 			}
 			create_pop = {
 				culture = romanian
-				size = 156000
+				size = 84000
 			}
 		}
 
