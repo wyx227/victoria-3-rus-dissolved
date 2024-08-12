@@ -38,7 +38,8 @@ MILITARY_FORMATIONS = {
 				type = unit_type:combat_unit_type_hussars
 				state_region = s:STATE_KIEV
 				count = 2
-			}            
+			}
+    
         }
 
 		create_military_formation = {

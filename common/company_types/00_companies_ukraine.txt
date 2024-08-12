@@ -15,14 +15,14 @@ company_ukrzaliznytsija = {
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
 			any_scope_state = {
-				state_region = s:STATE_LUHANSK
+				state_region = s:STATE_TAURIDA
 			}
 		}
 	}		
 	
 	possible = { 
 		any_scope_state = {
-			state_region = s:STATE_LUHANSK
+			state_region = s:STATE_TAURIDA
 			is_incorporated = yes
 			any_scope_building = {
 				OR = {
@@ -104,14 +104,14 @@ company_yuzhmash = {
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
 			any_scope_state = {
-				state_region = s:STATE_LUHANSK
+				state_region = s:STATE_TAURIDA
 			}
 		}
 	}		
 	
 	possible = {
 		any_scope_state = {
-			state_region = s:STATE_LUHANSK
+			state_region = s:STATE_TAURIDA
 			is_incorporated = yes
 			any_scope_building = {
 				is_building_type = building_motor_industry
@@ -149,14 +149,14 @@ company_zaz = {
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
 			any_scope_state = {
-				state_region = s:STATE_LUHANSK
+				state_region = s:STATE_TAURIDA
 			}
 		}
 	}		
 	
 	possible = {
 		any_scope_state = {
-			state_region = s:STATE_LUHANSK
+			state_region = s:STATE_TAURIDA
 			is_incorporated = yes
 			any_scope_building = {
 				is_building_type = building_motor_industry
@@ -194,14 +194,14 @@ company_luhansk_teplovoz = {
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
 			any_scope_state = {
-				state_region = s:STATE_LUHANSK
+				state_region = s:STATE_TAURIDA
 			}
 		}
 	}		
 	
 	possible = {
 		any_scope_state = {
-			state_region = s:STATE_LUHANSK
+			state_region = s:STATE_TAURIDA
 			is_incorporated = yes
 			any_scope_building = {
 				is_building_type = building_motor_industry
@@ -284,14 +284,14 @@ company_malyshev = {
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
 			any_scope_state = {
-				state_region = s:STATE_LUHANSK
+				state_region = s:STATE_TAURIDA
 			}
 		}
 	}		
 	
 	possible = {
 		any_scope_state = {
-			state_region = s:STATE_LUHANSK
+			state_region = s:STATE_TAURIDA
 			is_incorporated = yes
 			any_scope_building = {
 				is_building_type = building_war_machine_industry
