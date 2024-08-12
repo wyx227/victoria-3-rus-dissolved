@@ -21,6 +21,11 @@ The countries mentioned above have its boundaries as follows:
 Therefore, Russia, Prussia and Austria are shrinked regardly with the buildings and military formations directly transfered to these countries.
 
 ## Current Implementation
+v0.0.2:
+- Working with 1.7.5
+- Kept Ukrainian territory as it is in game
+- Updated special companies and military formations
+
 v0.0.1:
 - Tested functioning first release, able to play Ukraine from start with its border covering all regions with Ukrainian culture.
 - Transfered Dobrodja to Wallachia

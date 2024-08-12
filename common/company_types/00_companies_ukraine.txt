@@ -80,6 +80,7 @@ company_ukrenerho = {
 	
 	prosperity_modifier = {
 		building_electrics_industry_throughput_add = 0.1
+		building_power_plant_throughput_add = 0.2 
 	}	
 	
 	ai_weight = {
@@ -212,7 +213,8 @@ company_luhansk_teplovoz = {
 	}
 	
 	prosperity_modifier = {
-		building_motor_throughput_add = 0.2
+		building_motor_industry_throughput_add = 0.2
+		building_railway_throughput_add = 0.2
 	}
 	
 	ai_weight = {
@@ -257,7 +259,9 @@ company_velnii = {
 	}
 	
 	prosperity_modifier = {
-		building_motor_throughput_add = 0.2
+		building_motor_industry_throughput_add = 0.2
+		building_railway_throughput_add = 0.2
+		
 	}
 	
 	ai_weight = {
@@ -284,14 +288,14 @@ company_malyshev = {
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
 			any_scope_state = {
-				state_region = s:STATE_TAURIDA
+				state_region = s:STATE_KHARKOV
 			}
 		}
 	}		
 	
 	possible = {
 		any_scope_state = {
-			state_region = s:STATE_TAURIDA
+			state_region = s:STATE_KHARKOV
 			is_incorporated = yes
 			any_scope_building = {
 				is_building_type = building_war_machine_industry
@@ -302,7 +306,9 @@ company_malyshev = {
 	}
 	
 	prosperity_modifier = {
-		building_war_machine_throughput_add = 0.2
+		building_war_machine_industry_throughput_add = 0.2
+		building_arms_industry_throughput_add = 0.2
+		building_artillery_foundries_throughput_add = 0.2
 	}
 	
 	ai_weight = {
