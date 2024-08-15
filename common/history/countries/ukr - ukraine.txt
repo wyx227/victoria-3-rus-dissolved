@@ -12,7 +12,7 @@
 
 		set_institution_investment_level = {
 			institution = institution_schools
-			level = 2
+			level = 3
 		}
 		
 	}

@@ -255,7 +255,7 @@ company_velnii = {
 				level >= 3
 			}
 		}
-		has_technology_researched = electrified_railway
+		has_technology_researched = electric_railway
 	}
 	
 	prosperity_modifier = {

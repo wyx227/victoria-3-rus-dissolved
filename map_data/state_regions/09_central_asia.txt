@@ -28,18 +28,18 @@ STATE_KUBAN = {
     farm = "x405000"
     mine = "x1ED727"
     wood = "xD9CD9D"
-    arable_land = 105
+    arable_land = 200
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_vineyard_plantations" "bg_dye_plantations" "bg_silk_plantations"}
     capped_resources = {
         bg_coal_mining = 10
-        bg_lead_mining = 27
+        bg_lead_mining = 80
         bg_iron_mining = 10
         bg_logging = 35
         bg_fishing = 7
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 30
+        undiscovered_amount = 100
     }
     naval_exit_id = 3036
 }
