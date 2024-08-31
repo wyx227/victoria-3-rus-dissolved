@@ -7,39 +7,42 @@ MILITARY_FORMATIONS = {
 			name = Kyivskyy_Viyskovyy_Okruh    
 			# 1st Light Cavalry Division
 			combat_unit = { # Sumy and Klyastitsy Hussar Regiments.
-				type = unit_type:combat_unit_type_hussars
+#				type = unit_type:combat_unit_type_hussars
+				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_KIEV
 				count = 2
 			}
 
 			combat_unit = { # Field Marshal Graf Dibich of the Transbalkans’ and Poltava Infantry, Aleksopol and Kremenchug Jägers
-				type = unit_type:combat_unit_type_line_infantry
+				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_KIEV
-				count = 4
+				count = 6
 			}
 			# 3rd Light Cavalry Division
 			combat_unit = { # Field Marshal Graf Wittgenstein’s and the Prince of Orange’s Hussar Regiments.
-				type = unit_type:combat_unit_type_hussars
+#				type = unit_type:combat_unit_type_hussars
+				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_KIEV
 				count = 2
 			}
 			combat_unit = { # Podolia and Zhitomir Jägers
-				type = unit_type:combat_unit_type_line_infantry
+				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_KIEV
-				count = 2
+				count = 6
 			}
 			combat_unit = { # Kiev and His Royal Highness Prince Eugene of Württemberg’s Grenadiers
-				type = unit_type:combat_unit_type_line_infantry
+				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_KIEV
-				count = 2
+				count = 6
 			}
 			# 5th Light Cavalry Division
 			combat_unit = { # Akhtyrka and Aleksandriya Hussar Regiments
-				type = unit_type:combat_unit_type_hussars
+#				type = unit_type:combat_unit_type_hussars
+				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_KIEV
 				count = 2
 			}
-    
+			save_scope_as = Kyivskyy_Viyskovyy_Okruh
         }
 
 		create_military_formation = {
@@ -49,13 +52,15 @@ MILITARY_FORMATIONS = {
 
 			# 1st Reserve Cavalry Corps
 			combat_unit = { # Yekaterinoslav and His Imperial Highness the Grand Duke Michael Pavlovich’s Cuirassier Regiments
-				type = unit_type:combat_unit_type_cuirassiers
+#				type = unit_type:combat_unit_type_cuirassiers
+				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_KHARKOV
 				count = 1
 			}
 			# 2nd Light Cavalry Division
 			combat_unit = { # Yelisavetgrad and Lubny Hussar Regiments
-				type = unit_type:combat_unit_type_hussars
+#				type = unit_type:combat_unit_type_hussars
+				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_KHARKOV
 				count = 2
 			}
@@ -65,18 +70,19 @@ MILITARY_FORMATIONS = {
 				count = 2
 			}
 			combat_unit = { # Azov and Dnieper Infantry
-				type = unit_type:combat_unit_type_line_infantry
+				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_KHARKOV
 				count = 2
 			}
 			# 1st Reserve Cavalry Corps
 			combat_unit = { # Yekaterinoslav and His Imperial Highness the Grand Duke Michael Pavlovich’s Cuirassier Regiments
-				type = unit_type:combat_unit_type_cuirassiers
+#				type = unit_type:combat_unit_type_cuirassiers
+				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_KHARKOV
 				count = 1
 			}
 			combat_unit = { # Yekaterinoslav Grenadiers and Prince Paul of Mecklenburg’s Carabiniers
-				type = unit_type:combat_unit_type_line_infantry
+				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_KHARKOV
 				count = 2
 			}
@@ -93,12 +99,13 @@ MILITARY_FORMATIONS = {
 			}
 			# 4th Light Cavalry Division
 			combat_unit = { # Pavlograd and Archduke Ferdinand’s Hussar Regiments.
-				type = unit_type:combat_unit_type_hussars
+#				type = unit_type:combat_unit_type_hussars
+				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_KHARKOV
 				count = 2
 			}
 			combat_unit = { # Yelets and Sevsk Infantry, Orel Jägers
-				type = unit_type:combat_unit_type_line_infantry
+				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_KURSK
 				count = 3
 			}
@@ -106,14 +113,16 @@ MILITARY_FORMATIONS = {
 			combat_unit = { # Belgorod and Chuguev Lancer Regiments, Borisoglebsk and Serpukhov Lancer Regiments
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_KURSK
-				count = 4
+				count = 24
 			}
 			# Guards Cavalry
 			combat_unit = { # Chevalier Guards, L.-Gds. Horse, L.-Gds. Cuirassiers, Her Majesty’s Life-Cuirassiers, L.-Gds. Podolia Cuirassiers
-				type = unit_type:combat_unit_type_cuirassiers
+#				type = unit_type:combat_unit_type_cuirassiers
+				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_KURSK
 				count = 5
-			}        
+			}
+			save_scope_as = Kharkivskyi_Viyskovyy_Okruh        
         }
 
 		create_military_formation = {
@@ -121,12 +130,12 @@ MILITARY_FORMATIONS = {
 			hq_region = sr:region_poland
 			name = Kapartskyy_Viyskovyy_Okruh  
 			combat_unit = { # His Majesty the King of Prussia’s Grenadier Regiment, L.-Gds. Volhynia Regiment
-				type = unit_type:combat_unit_type_line_infantry
+				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_VOLHYNIA
 				count = 2
 			}
 			combat_unit = { # Volhynia Infantry
-				type = unit_type:combat_unit_type_line_infantry
+				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_VOLHYNIA
 				count = 3
 			}
@@ -134,7 +143,8 @@ MILITARY_FORMATIONS = {
 				type = unit_type:combat_unit_type_mobile_artillery
 				state_region = s:STATE_EAST_SLOVAKIA
 				count = 5
-			}    
+			}
+			save_scope_as = Kapartskyy_Viyskovyy_Okruh    
         }
 
 
@@ -143,9 +153,9 @@ MILITARY_FORMATIONS = {
 			hq_region = sr:region_dnieper
 			name = Odeskyy_Viyskovyy_Okruh  
 			combat_unit = { # Ukraine and Odessa Jägers
-				type = unit_type:combat_unit_type_line_infantry
+				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_CHERSON
-				count = 6
+				count = 10
 			}
 			# 2nd Reserve Cavalry Corps
 			combat_unit = { # Ukraine and Novo-Arkhangelsk Lancer Regiments, Novo-Mirgorod and Yelisavetgrad Lancer Regiments
@@ -164,7 +174,8 @@ MILITARY_FORMATIONS = {
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_CHERSON
 				count = 2
-			}            
+			}
+			save_scope_as = Odeskyy_Viyskovyy_Okruh            
         }
 
 
@@ -188,39 +199,45 @@ MILITARY_FORMATIONS = {
 				count = 1
 			}
 			combat_unit = { # Tenginsk and Navaginsk Infantry, Kabarda and Kura Jägers
-				type = unit_type:combat_unit_type_line_infantry
+				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_KUBAN
 				count = 44
 			}
 			combat_unit = { # 1st and 2nd Little-Russian Cossack Regiments
-				type = unit_type:combat_unit_type_hussars
+#				type = unit_type:combat_unit_type_hussars
+				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_KUBAN
 				count = 2
 			}
 			# Don Cossacks
 			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
+#				type = unit_type:combat_unit_type_hussars
+				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_ROSTOV
 				count = 8
 			}
 			# Don Cossacks
 			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
+#				type = unit_type:combat_unit_type_hussars
+				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_KUBAN
 				count = 6
 			}
 			# Don Cossacks
 			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
+#				type = unit_type:combat_unit_type_hussars
+				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_KUBAN
 				count = 12
 			}
 			# Don Cossacks
 			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
+#				type = unit_type:combat_unit_type_hussars
+				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_ROSTOV
 				count = 13
 			}
+			save_scope_as = Kavkaskyy_Kozatskyy_Viysk
         }
 
 		create_military_formation = {
@@ -269,7 +286,7 @@ MILITARY_FORMATIONS = {
 				state_region = s:STATE_TAURIDA
 				count = 1
 			}
-			save_scope_as = ukr_black_sea_fleet
+			save_scope_as = Chornomorskyy_Flot
 		}
 
 
