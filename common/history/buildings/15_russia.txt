@@ -151,13 +151,13 @@
 		}
 	}
 	s:STATE_KAUNAS={
-		region_state:RUS={
+		region_state:POL={
 			create_building={
 				building="building_rye_farm"
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:RUS"
+						country="c:POL"
 						levels=2
 						region="STATE_KAUNAS"
 					}
@@ -169,7 +169,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:RUS"
+						country="c:POL"
 						levels=1
 					}
 				}
@@ -1928,7 +1928,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_sulfur_mine"

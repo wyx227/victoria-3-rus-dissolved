@@ -61,7 +61,7 @@
 		}
 	}
 	s:STATE_SMOLENSK = {
-		region_state:BYE = {
+		region_state:RUS = {
 			create_pop = {
 				culture = russian
 				size = 949892

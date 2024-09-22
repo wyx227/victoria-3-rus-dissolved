@@ -4,7 +4,7 @@ MILITARY_FORMATIONS = {
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_dnieper
-			name = Kyivskyy_Viyskovyy_Okruh    
+			name = "Kyivskyy_Viyskovyy_Okruh"   
 			# 1st Light Cavalry Division
 			combat_unit = { # Sumy and Klyastitsy Hussar Regiments.
 #				type = unit_type:combat_unit_type_hussars
@@ -48,7 +48,7 @@ MILITARY_FORMATIONS = {
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_russia
-			name = Kharkivskyi_Viyskovyy_Okruh   
+			name = "Kharkivskyi_Viyskovyy_Okruh"   
 
 			# 1st Reserve Cavalry Corps
 			combat_unit = { # Yekaterinoslav and His Imperial Highness the Grand Duke Michael Pavlovich’s Cuirassier Regiments
@@ -72,7 +72,7 @@ MILITARY_FORMATIONS = {
 			combat_unit = { # Azov and Dnieper Infantry
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_KHARKOV
-				count = 2
+				count = 22
 			}
 			# 1st Reserve Cavalry Corps
 			combat_unit = { # Yekaterinoslav and His Imperial Highness the Grand Duke Michael Pavlovich’s Cuirassier Regiments
@@ -128,7 +128,7 @@ MILITARY_FORMATIONS = {
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_poland
-			name = Kapartskyy_Viyskovyy_Okruh  
+			name = "Kapartskyy_Viyskovyy_Okruh"  
 			combat_unit = { # His Majesty the King of Prussia’s Grenadier Regiment, L.-Gds. Volhynia Regiment
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_VOLHYNIA
@@ -151,7 +151,7 @@ MILITARY_FORMATIONS = {
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_dnieper
-			name = Odeskyy_Viyskovyy_Okruh  
+			name = "Odeskyy_Viyskovyy_Okruh"  
 			combat_unit = { # Ukraine and Odessa Jägers
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_CHERSON
@@ -182,7 +182,7 @@ MILITARY_FORMATIONS = {
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_dnieper
-			name = Kavkaskyy_Kozatskyy_Viysk  
+			name = "Kavkaskyy_Kozatskyy_Viysk"  
 			combat_unit = { # 1st Horse-Artillery Division
 				type = unit_type:combat_unit_type_mobile_artillery
 				state_region = s:STATE_ROSTOV
@@ -243,7 +243,7 @@ MILITARY_FORMATIONS = {
 		create_military_formation = {
 			type = fleet
 			hq_region = sr:region_dnieper
-			name = Chornomorskyy_Flot
+			name = "Chornomorskyy_Flot"
 		
 			combat_unit = {
 				type = unit_type:combat_unit_type_man_o_war
@@ -298,12 +298,6 @@ MILITARY_FORMATIONS = {
 			type = army
 			hq_region = sr:region_belarus
 			name = Vzbrojenya_Sily_Belarus 
-			# 2nd Reserve Cavalry Corps
-			combat_unit = { # Order and Starodub Cuirassier Regiments, Prince Albert of Prussia’s and Her Imperial Highness the Grand Duchess Helen Pavlovna’s Cuirassier Regments
-				type = unit_type:combat_unit_type_cuirassiers
-				state_region = s:STATE_ORYOL
-				count = 3
-			}
 
 			combat_unit = { # Field Marshal the Duke of Wellington’s and Mogilev Infantry, Vitebsk and Polotsk Jägers
 				type = unit_type:combat_unit_type_line_infantry

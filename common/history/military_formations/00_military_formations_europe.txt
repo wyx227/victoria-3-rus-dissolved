@@ -1750,7 +1750,7 @@
 
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_poland
+			hq_region = sr:region_russia
 			name = 5y_Pekhotniy_Korpus
 
 			# 5th Artillery Division
@@ -1974,29 +1974,8 @@
 				count = 3
 			}
 			
-			combat_unit = { # 
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_KUBAN
-				count = 6
-			}
 		}
 		
-		create_military_formation = {
-			type = army
-			hq_region = sr:region_caucasus
-
-			combat_unit = { # 
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_KUBAN
-				count = 3
-			}
-			
-			combat_unit = { # 
-				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_KUBAN
-				count = 6
-			}
-		}
 	}
 
 	c:CHC = {
