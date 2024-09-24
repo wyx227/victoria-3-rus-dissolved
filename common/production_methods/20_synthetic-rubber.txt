@@ -1,0 +1,68 @@
+﻿pm_primitive_syn_rubber = {
+	texture = "gfx/interface/icons/production_method_icons/synthetic_dyes.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods 1900+
+            goods_input_sulfur_add = 20
+            goods_input_fertilizer_add = 30
+            goods_input_coal_add = 50
+			goods_input_wood_add = 20
+			goods_input_engines_add = 30
+
+			# output goods 3200
+			goods_output_rubber_add = 200
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 1000
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 2000
+		}
+	}
+
+}
+
+pm_advanced_syn_rubber = {
+	texture = "gfx/interface/icons/production_method_icons/synthetic_dyes.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
+    unlocking_technologies = {
+        plastics
+    }
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods 1900+
+            goods_input_sulfur_add = 20
+            goods_input_fertilizer_add = 30
+            goods_input_coal_add = 30
+			goods_input_wood_add = 10
+			goods_input_engines_add = 30
+            goods_input_electricity_add = 20
+            goods_input_oil_add = 50
+			# output goods 3200
+			goods_output_rubber_add = 300
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 750
+			building_employment_machinists_add = 750
+			building_employment_engineers_add = 1000
+		}
+	}
+
+}

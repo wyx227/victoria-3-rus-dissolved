@@ -1,0 +1,7 @@
+﻿pmg_synthetic_rubber = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    production_methods = {
+        pm_primitive_syn_rubber
+        pm_advanced_syn_rubber
+    }    
+}
