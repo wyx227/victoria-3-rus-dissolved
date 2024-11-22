@@ -1260,6 +1260,21 @@
 	s:STATE_KURSK={
 		region_state:UKR={
 			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:UKR"
+						levels=10
+						region="STATE_KURSK"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
+			}
+		}		
+		region_state:UKR={
+			create_building={
 				building="building_rye_farm"
 				add_ownership={
 					building={
@@ -2020,12 +2035,12 @@
 					building={
 						type="building_financial_district"
 						country="c:UKR"
-						levels=1
+						levels=3
 						region="STATE_TAURIDA"
 					}
 					building={
 						type="building_financial_district"
-						country="c:GBR"
+						country="c:UKR"
 						levels=2
 						region="STATE_KHARKOV"
 					}

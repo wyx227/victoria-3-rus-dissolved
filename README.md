@@ -7,10 +7,6 @@ eastern european countries direct upon start of game:
 
  - Ukraine
  - Belarus
- - Lithuania
- - Estonia
- - Latvia
- - Romania
  - Poland
 
 The countries mentioned above have its boundaries as follows:
@@ -21,6 +17,15 @@ The countries mentioned above have its boundaries as follows:
 Therefore, Russia, Prussia and Austria are shrinked regardly with the buildings and military formations directly transfered to these countries.
 
 ## Current Implementation
+v0.0.4:
+- *Added Green Ukraine as a releasable
+- Working with 1.8 and DLC
+
+
+v0.0.3:
+- Added synthetic rubber plant
+- Massively increase amount of arable land in eastern Europe and NA, make it capable of holding more population by end game
+
 v0.0.2:
 - Working with 1.7.5
 - Kept Ukrainian territory as it is in game
