@@ -1,0 +1,8 @@
+﻿ZUK = { # Green Ukraine
+	flag_definition = {
+		coa = ZUK
+		subject_canton = ZUK			
+		priority = 1
+	}
+	
+}

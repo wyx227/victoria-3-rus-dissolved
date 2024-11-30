@@ -5001,3 +5001,14 @@ IDS = {
 	cultures = { panjabi sindi }
 	capital = STATE_PUNJAB
 }
+
+ZUK = {
+	color = { 62 90 240 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { ukrainian }
+	capital = STATE_AMUR	
+}

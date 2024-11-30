@@ -19,7 +19,7 @@ company_ukrzaliznytsija = {
 			}
 		}
 	}		
-	
+
 	possible = { 
 		any_scope_state = {
 			state_region = s:STATE_TAURIDA
@@ -65,7 +65,7 @@ company_ukrenerho = {
 			}
 		}
 	}		
-	
+
 	possible = {
 		any_scope_state = {
 			state_region = s:STATE_KIEV

@@ -1,0 +1,8 @@
+﻿ZUK = {
+	states = {
+		STATE_AMUR
+        STATE_OUTER_MANCHURIA
+	}
+	
+	ai_will_do = { always = no }
+}
