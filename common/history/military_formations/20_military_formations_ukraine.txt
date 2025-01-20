@@ -76,7 +76,6 @@ MILITARY_FORMATIONS = {
 			}
 			# 1st Reserve Cavalry Corps
 			combat_unit = { # Yekaterinoslav and His Imperial Highness the Grand Duke Michael Pavlovich’s Cuirassier Regiments
-#				type = unit_type:combat_unit_type_cuirassiers
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_KHARKOV
 				count = 1
@@ -99,7 +98,6 @@ MILITARY_FORMATIONS = {
 			}
 			# 4th Light Cavalry Division
 			combat_unit = { # Pavlograd and Archduke Ferdinand’s Hussar Regiments.
-#				type = unit_type:combat_unit_type_hussars
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_KHARKOV
 				count = 2
@@ -113,11 +111,10 @@ MILITARY_FORMATIONS = {
 			combat_unit = { # Belgorod and Chuguev Lancer Regiments, Borisoglebsk and Serpukhov Lancer Regiments
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_KURSK
-				count = 24
+				count = 20
 			}
 			# Guards Cavalry
 			combat_unit = { # Chevalier Guards, L.-Gds. Horse, L.-Gds. Cuirassiers, Her Majesty’s Life-Cuirassiers, L.-Gds. Podolia Cuirassiers
-#				type = unit_type:combat_unit_type_cuirassiers
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_KURSK
 				count = 5
@@ -201,7 +198,7 @@ MILITARY_FORMATIONS = {
 			combat_unit = { # Tenginsk and Navaginsk Infantry, Kabarda and Kura Jägers
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_KUBAN
-				count = 44
+				count = 24
 			}
 			combat_unit = { # 1st and 2nd Little-Russian Cossack Regiments
 #				type = unit_type:combat_unit_type_hussars
@@ -228,14 +225,14 @@ MILITARY_FORMATIONS = {
 #				type = unit_type:combat_unit_type_hussars
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_KUBAN
-				count = 12
+				count = 2
 			}
 			# Don Cossacks
 			combat_unit = {
 #				type = unit_type:combat_unit_type_hussars
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_ROSTOV
-				count = 13
+				count = 3
 			}
 			save_scope_as = Kavkaskyy_Kozatskyy_Viysk
         }
