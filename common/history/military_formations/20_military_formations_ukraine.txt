@@ -72,7 +72,7 @@ MILITARY_FORMATIONS = {
 			combat_unit = { # Azov and Dnieper Infantry
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_KHARKOV
-				count = 22
+				count = 5
 			}
 			# 1st Reserve Cavalry Corps
 			combat_unit = { # Yekaterinoslav and His Imperial Highness the Grand Duke Michael Pavlovich’s Cuirassier Regiments
@@ -105,19 +105,19 @@ MILITARY_FORMATIONS = {
 			combat_unit = { # Yelets and Sevsk Infantry, Orel Jägers
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_KURSK
-				count = 3
+				count = 8
 			}
 			# 1st Reserve Cavalry Corps
 			combat_unit = { # Belgorod and Chuguev Lancer Regiments, Borisoglebsk and Serpukhov Lancer Regiments
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_KURSK
-				count = 20
+				count = 1
 			}
 			# Guards Cavalry
 			combat_unit = { # Chevalier Guards, L.-Gds. Horse, L.-Gds. Cuirassiers, Her Majesty’s Life-Cuirassiers, L.-Gds. Podolia Cuirassiers
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_KURSK
-				count = 5
+				count = 1
 			}
 			save_scope_as = Kharkivskyi_Viyskovyy_Okruh        
         }
@@ -198,7 +198,7 @@ MILITARY_FORMATIONS = {
 			combat_unit = { # Tenginsk and Navaginsk Infantry, Kabarda and Kura Jägers
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_KUBAN
-				count = 24
+				count = 14
 			}
 			combat_unit = { # 1st and 2nd Little-Russian Cossack Regiments
 #				type = unit_type:combat_unit_type_hussars
@@ -211,14 +211,14 @@ MILITARY_FORMATIONS = {
 #				type = unit_type:combat_unit_type_hussars
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_ROSTOV
-				count = 8
+				count = 3
 			}
 			# Don Cossacks
 			combat_unit = {
 #				type = unit_type:combat_unit_type_hussars
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_KUBAN
-				count = 6
+				count = 1
 			}
 			# Don Cossacks
 			combat_unit = {
