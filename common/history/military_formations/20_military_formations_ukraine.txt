@@ -147,7 +147,7 @@ MILITARY_FORMATIONS = {
 
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_dnieper
+			hq_region = sr:region_southern_ukraine
 			name = "Odeskyy_Viyskovyy_Okruh"  
 			combat_unit = { # Ukraine and Odessa Jägers
 				type = unit_type:combat_unit_type_skirmish_infantry
@@ -178,7 +178,7 @@ MILITARY_FORMATIONS = {
 
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_dnieper
+			hq_region = sr:region_caucasus
 			name = "Kavkaskyy_Kozatskyy_Viysk"  
 			combat_unit = { # 1st Horse-Artillery Division
 				type = unit_type:combat_unit_type_mobile_artillery
@@ -239,7 +239,7 @@ MILITARY_FORMATIONS = {
 
 		create_military_formation = {
 			type = fleet
-			hq_region = sr:region_dnieper
+			hq_region = sr:region_southern_ukraine
 			name = "Chornomorskyy_Flot"
 		
 			combat_unit = {

@@ -90,9 +90,9 @@ region_dnieper = {
 	states = { STATE_KHARKOV STATE_KIEV STATE_VOLHYNIA STATE_CHERNIHIV }
 }
 
-region_black_sea = {
+region_southern_ukraine = {
 	capital_province = x716121
-	map_color = { 80 220 200 }
+	map_color = { 80 220 190 }
 	states = { STATE_CRIMEA STATE_CHERSON STATE_TAURIDA }
 }
 
