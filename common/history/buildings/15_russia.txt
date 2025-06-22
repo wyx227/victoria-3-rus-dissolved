@@ -176,6 +176,17 @@
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
+			create_building={
+				building="building_trade_center"
+				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
+				add_ownership={
+					country={
+						country="c:POL"
+						levels=5
+					}
+				}
+				reserves=1
+			}				
 		}
 	}
 	s:STATE_VILNIUS={
@@ -725,6 +736,19 @@
 	s:STATE_BREST={
 		region_state:BYE={
 			create_building={
+				building="building_trade_center"
+				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:BYE"
+						levels=4
+						region="STATE_MINSK"
+					}
+				}
+				reserves=1
+			}			
+			create_building={
 				building="building_rye_farm"
 				add_ownership={
 					building={
@@ -946,6 +970,7 @@
 						region="STATE_KIEV"
 					}
 				}
+				subsidized=yes
 				reserves=1
 				activate_production_methods={ "pm_early_trains"  "pm_wooden_passenger_carriages" }
 			}												
@@ -1320,7 +1345,17 @@
 				reserves=1
 				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled"  }
 			}		
-		
+			create_building={
+				building="building_trade_center"
+				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
+				add_ownership={
+					country={
+						country="c:UKR"
+						levels=5
+					}
+				}
+				reserves=1
+			}		
 		
 		}
 	}
@@ -1362,6 +1397,17 @@
 				reserves=1
 				activate_production_methods={ "pm_basic_shipbuilding"  }
 			}
+			create_building={
+				building="building_trade_center"
+				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
+				add_ownership={
+					country={
+						country="c:UKR"
+						levels=5
+					}
+				}
+				reserves=1
+			}				
 			create_building={
 				building="building_military_shipyards"
 				add_ownership={
@@ -2006,6 +2052,7 @@
 						region="STATE_KIEV"
 					}
 				}
+				subsidized=yes
 				reserves=1
 				activate_production_methods={ "pm_early_trains"  "pm_wooden_passenger_carriages" }
 			}							
@@ -2095,7 +2142,18 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_percussion_caps" "pm_automation_disabled"  }
-			}														
+			}
+			create_building={
+				building="building_trade_center"
+				activate_production_methods={ "pm_trade_center_trade_quantity_normal" }
+				add_ownership={
+					country={
+						country="c:UKR"
+						levels=5
+					}
+				}
+				reserves=1
+			}																	
 	}
 	s:STATE_TAMBOV={
 		region_state:RUS={

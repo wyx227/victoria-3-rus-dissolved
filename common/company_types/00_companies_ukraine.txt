@@ -3,6 +3,8 @@ company_ukrzaliznytsija = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	
 	flavored_company = yes
+
+	preferred_headquarters = { STATE_KIEV }
 	
 	building_types = {  
         building_railway
@@ -48,7 +50,9 @@ company_ukrenerho = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	
 	flavored_company = yes
-	
+
+	preferred_headquarters = { STATE_KIEV }
+
 	building_types = {  
 
 		building_power_plant
@@ -97,7 +101,9 @@ company_yuzhmash = {
 	building_types = {  
 		building_motor_industry
 	}
-	
+
+	preferred_headquarters = { STATE_TAURIDA }
+
 	potential = {
 		has_interest_marker_in_region = region_dnieper
 	}
@@ -140,11 +146,18 @@ company_zaz = {
 	flavored_company = yes
 	
 	building_types = {  
-		building_motor_industry
+		building_automotive_industry
 	}
 	
 	potential = {
 		has_interest_marker_in_region = region_dnieper
+	}
+
+	preferred_headquarters = { STATE_TAURIDA }
+
+
+	possible_prestige_goods = {
+		prestige_good_zaporozhe_automobiles
 	}
 	
 	attainable = {
@@ -191,7 +204,14 @@ company_luhansk_teplovoz = {
 	potential = {
 		has_interest_marker_in_region = region_dnieper
 	}
-	
+
+	preferred_headquarters = { STATE_TAURIDA }
+
+
+	possible_prestige_goods = {
+		prestige_good_luhansk_locomotives
+	}
+
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
 			any_scope_state = {
@@ -233,7 +253,10 @@ company_velnii = {
 	building_types = {  
 		building_motor_industry
 	}
-	
+
+	preferred_headquarters = { STATE_ROSTOV }
+
+
 	potential = {
 		has_interest_marker_in_region = region_caucasus
 	}
@@ -278,13 +301,16 @@ company_malyshev = {
 	flavored_company = yes
 	
 	building_types = {  
-		building_war_machine_industry
+		building_automotive_industry
 	}
 	
 	potential = {
 		has_interest_marker_in_region = region_dnieper
 	}
-	
+
+	preferred_headquarters = { STATE_KHARKOV }
+
+
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
 			any_scope_state = {
@@ -298,7 +324,7 @@ company_malyshev = {
 			state_region = s:STATE_KHARKOV
 			is_incorporated = yes
 			any_scope_building = {
-				is_building_type = building_war_machine_industry
+				is_building_type = building_automotive_industry
 				level >= 3
 			}
 		}
@@ -306,7 +332,7 @@ company_malyshev = {
 	}
 	
 	prosperity_modifier = {
-		building_war_machine_industry_throughput_add = 0.2
+		building_automotive_industry_throughput_add = 0.2
 		building_arms_industry_throughput_add = 0.2
 		building_artillery_foundries_throughput_add = 0.2
 	}

@@ -17,6 +17,12 @@ The countries mentioned above have its boundaries as follows:
 Therefore, Russia, Prussia and Austria are shrinked regardly with the buildings and military formations directly transfered to these countries.
 
 ## Current Implementation
+v0.0.5:
+- Adding support for 1.9
+- Removed synthetic rubber plant
+- Significantly reduced the starting military strength, making the finance actually working.
+- Adding new strategic region "Southern Ukraine", including Cherson and Alexandrovsk, which shall reflect the Odessa Military District during the Imperial and Soviet era in OTL.
+
 v0.0.4:
 - *Added Green Ukraine as a releasable
 - Working with 1.8 and DLC

@@ -1,0 +1,11 @@
+﻿prestige_good_zaporozhe_automobiles = {
+	base_good = automobiles
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/turin_automobiles_prestige.dds"
+}
+
+prestige_good_luhansk_locomotives = {
+	base_good = engines
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/locomotives.dds"
+}
