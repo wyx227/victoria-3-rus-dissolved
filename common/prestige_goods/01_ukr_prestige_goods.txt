@@ -9,3 +9,27 @@ prestige_good_luhansk_locomotives = {
 	prestige_bonus = 0.1
 	texture = "gfx/interface/icons/goods_icons/locomotives.dds"
 }
+
+prestige_good_ukro_power = {
+	base_good = electricity
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/electricity.dds"
+}
+
+prestige_good_ukro_transportation = {
+	base_good = transportation
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/transportation.dds"
+}
+
+prestige_good_t34_tank = {
+	base_good = tank
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/military_goods.dds"
+}
+
+prestige_good_zaporozhe_steel = {
+	base_good = steel
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/sheffield_steel_prestige.dds"
+}
