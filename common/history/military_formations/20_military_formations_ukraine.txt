@@ -138,9 +138,38 @@ MILITARY_FORMATIONS = {
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_EAST_SLOVAKIA
+				state_region = s:STATE_RUTHENIA
 				count = 5
 			}
+
+			# "German" Line Regiments
+
+			combat_unit = { # IR 9, IR 15, IR 20, IR 24, IR 27, IR 30, IR 47, IR 58
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_EAST_GALICIA
+				count = 16
+			}
+
+			# Uhlans
+			combat_unit = { # 3. Uhlans, 4. Uhlans
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_EAST_GALICIA
+				count = 2
+			}
+
+			# Dragoons
+			combat_unit = { # 1. Dragoons
+				type = unit_type:combat_unit_type_dragoons
+				state_region = s:STATE_EAST_GALICIA
+				count = 1
+			}
+
+			combat_unit = { # 3. Chevauxlegers, 6. Chevauxlegers
+				type = unit_type:combat_unit_type_dragoons
+				state_region = s:STATE_EAST_GALICIA
+				count = 2
+			}
+
 			save_scope_as = Kapartskyy_Viyskovyy_Okruh    
         }
 
