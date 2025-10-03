@@ -2048,7 +2048,7 @@
 					building={
 						type="building_financial_district"
 						country="c:UKR"
-						levels=5
+						levels=10
 						region="STATE_KIEV"
 					}
 				}
@@ -2153,6 +2153,17 @@
 					}
 				}
 				reserves=1
+			}
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:UKR"
+						levels=10
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
 			}																	
 	}
 	s:STATE_TAMBOV={

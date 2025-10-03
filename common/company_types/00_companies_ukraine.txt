@@ -156,6 +156,10 @@ company_yuzhmash = {
 		}
 	}		
 	
+	possible_prestige_goods = {
+		prestige_good_zaporozhe_steel
+	}
+
 	possible = {
 		any_scope_state = {
 			state_region = s:STATE_TAURIDA
