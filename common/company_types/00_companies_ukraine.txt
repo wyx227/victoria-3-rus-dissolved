@@ -145,7 +145,7 @@ company_yuzhmash = {
 	preferred_headquarters = { STATE_TAURIDA }
 
 	potential = {
-		has_interest_marker_in_region = region_dnieper
+		has_interest_marker_in_region = region_southern_ukraine
 	}
 	
 	attainable = {
@@ -207,7 +207,7 @@ company_zaz = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_dnieper
+		has_interest_marker_in_region = region_southern_ukraine
 	}
 
 	preferred_headquarters = { STATE_TAURIDA }
@@ -266,7 +266,7 @@ company_luhansk_teplovoz = {
 	}	
 	
 	potential = {
-		has_interest_marker_in_region = region_dnieper
+		has_interest_marker_in_region = region_southern_ukraine
 	}
 
 	preferred_headquarters = { STATE_TAURIDA }
@@ -337,7 +337,7 @@ company_malyshev = {
 	possible_prestige_goods = {
 		prestige_good_t34_tank
 	}
-	
+
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
 			any_scope_state = {

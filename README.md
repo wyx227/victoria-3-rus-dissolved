@@ -17,6 +17,10 @@ The countries mentioned above have its boundaries as follows:
 Therefore, Russia, Prussia and Austria are shrinked regardly with the buildings and military formations directly transfered to these countries.
 
 ## Current Implementation
+V0.0.6:
+- Added prestige goods and support for 1.9 based companies
+
+
 v0.0.5:
 - Adding support for 1.9
 - Removed synthetic rubber plant
