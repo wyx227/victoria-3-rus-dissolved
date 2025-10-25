@@ -17,7 +17,11 @@ The countries mentioned above have its boundaries as follows:
 Therefore, Russia, Prussia and Austria are shrinked regardly with the buildings and military formations directly transfered to these countries.
 
 ## Current Implementation
-V0.0.6:
+v0.0.7:
+- Added support for 1.10.*
+- Adapt the resource distribution from Victoria Century
+
+v0.0.6:
 - Added prestige goods and support for 1.9 based companies
 
 
