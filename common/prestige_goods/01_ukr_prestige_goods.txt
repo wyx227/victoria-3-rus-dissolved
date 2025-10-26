@@ -33,3 +33,58 @@ prestige_good_zaporozhe_steel = {
 	prestige_bonus = 0.1
 	texture = "gfx/interface/icons/goods_icons/prestige_goods/sheffield_steel_prestige.dds"
 }
+
+prestige_good_donbas_coal = {
+	base_good = coal
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/coal.dds"
+}
+
+
+prestige_good_donbas_tools = {
+	base_good = tools
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/generic_tools_prestige.dds"
+}
+
+prestige_good_dnipro_engines = {
+	base_good = engines
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/schichau_engines_prestige.dds"
+}
+
+prestige_good_sks = {
+	base_good = firearms
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/generic_small_arms_prestige.dds"
+}
+
+prestige_good_2s22 = {
+	base_good = artillery
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/generic_artillery_prestige.dds"
+}
+
+prestige_good_blacksea_ships = {
+	base_good = steamers
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/clyde_built_liners_prestige.dds"
+}
+
+prestige_good_blacksea_warships = {
+	base_good = ironclads
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/armstrong_ships_prestige.dds"
+}
+
+prestige_good_blacksea_clippers = {
+	base_good = clippers
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/clippers.dds"
+}
+
+prestige_good_blacksea_manowars = {
+	base_good = manowars
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/man_o_wars.dds"
+}
